@@ -1,3 +1,24 @@
+x11proto-xf86dri (2.1.1-2) unstable; urgency=low
+
+  * Mark x11proto-xf86dri-dev Multi-Arch: foreign
+  * Install xf86driproto.pc to /usr/share/pkgconfig
+
+ -- Steve Langasek <vorlon@debian.org>  Tue, 15 Nov 2011 11:58:56 -0800
+
+x11proto-xf86dri (2.1.1-1) unstable; urgency=low
+
+  [ Julien Cristau ]
+  * Rename the build directory to not include DEB_BUILD_GNU_TYPE for no
+    good reason.  Thanks, Colin Watson!
+  * Remove myself from Uploaders
+
+  [ Cyril Brulebois ]
+  * New upstream release.
+  * Bump xutils-dev build-dep for new macros.
+  * Add myself to Uploaders.
+
+ -- Cyril Brulebois <kibi@debian.org>  Fri, 14 Jan 2011 17:00:02 +0100
+
 x11proto-xf86dri (2.1.0-1) unstable; urgency=low
 
   * Run autoreconf at build time.
